@@ -4,12 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-items: center;
+    justify-items: center; 
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-   background-image: url(../stylesheet/images/bg-intro-desktop.png);
+   background-image: url(../stylesheet/images/IMG-3902.png);
    max-width: 100%;
     border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
    
 }
@@ -27,7 +30,7 @@
 
 .left_test_area h1{
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgb(119, 202, 111);
     font-weight: 700px;
     max-width: 90%;
 }  
@@ -37,11 +40,13 @@
     font-weight: 600px;
     color: white; 
     max-width: 90%;  
+    background-color: #37af7b;
+    border-radius: 5px;
     
 }
 
 .color-overlay {
-    background-color: hsl(0, 100%, 74%) ;
+    background-color: hsl(236, 71%, 15%) ;
 }
     
 
